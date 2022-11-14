@@ -2,6 +2,5 @@ require './game.rb'
 require './player.rb'
 require './question.rb'
 
-Game
-Player
-Question
+game = Game.new
+game.start_game
